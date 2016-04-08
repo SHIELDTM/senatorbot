@@ -14,7 +14,7 @@ local function run(msg, matches)
   ..'\nForks: '..jdat.forks_count
   ..'\nIssues: '..jdat.open_issues
   ..'\nRepo URL: '..jdat.html_url
-  ..'\n\n@shieldTM Team'
+  ..'\n\nsenator Team'
   local file = download_to_file(jdat.owner.avatar_url,'MeGa_shield.webp')
   local files = download_to_file(jdat.owner.avatar_url,'MeGa_shield.png')
   send_document('channel#id'..msg.to.id,file,ok_cb,false)
