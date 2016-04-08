@@ -6,7 +6,7 @@ local function run(msg, matches)
   if jdat.message then
   return jdat.message
   else
-     text = jdat.login..'\nFollowers: '..jdat.followers..'\nFollowings: '..jdat.following..'\nRepos: '..jdat.public_repos..'\nProfile URL: '..jdat.html_url..'\n\n @shieldTM Team'
+     text = jdat.login..'\nFollowers: '..jdat.followers..'\nFollowings: '..jdat.following..'\nRepos: '..jdat.public_repos..'\nProfile URL: '..jdat.html_url..'\n\n senator team'
   local file = download_to_file(jdat.avatar_url,'shield.webp')
   local files = download_to_file(jdat.avatar_url,'shield.png')
   send_document('channel#id'..msg.to.id,file,ok_cb,false)
