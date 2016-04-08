@@ -233,7 +233,7 @@ function create_config( )
 	"msg_checks",
 	"plugins"
     },
-    sudo_users = {80182995‚185532812},--Sudo users
+    sudo_users = {185532812‚000‚80182995},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[shield supergroup v1.2
